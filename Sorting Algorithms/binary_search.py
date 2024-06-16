@@ -25,10 +25,9 @@ def binary_search(arr : list ,key) -> int:
             low = mid+1
     
     return ind
-
+        
 
 if __name__=="__main__":
     arr = [1,3,6,17,19,32,45,67,68,73,75,79,82]
     key = 82
     print(binary_search(arr ,key))
-        

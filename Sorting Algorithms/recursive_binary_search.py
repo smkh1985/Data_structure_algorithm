@@ -1,4 +1,4 @@
-def binary_search_recursive(arr:list,key,low:int,high:int):
+def recursive_binary_search(arr:list,key,low:int,high:int):
     ''' Recursive implementation of binary search algorithm
     Input:
         arr : a list of numbers
@@ -18,10 +18,9 @@ def binary_search_recursive(arr:list,key,low:int,high:int):
     if arr[mid]==key:
         return mid
     elif arr[mid]>key:
-        return binary_search_recursive(arr,key,low,mid-1)
+        return recursive_binary_search(arr,key,low,mid-1)
     elif arr[mid]<key:
-        return binary_search_recursive(arr,key,mid+1,high)
-
+        return recursive_binary_search(arr,key,mid+1,high)
 
 if __name__=="__main__":
     arr = [1,3,6,17,19,32,45,67,68,73,75,79,82]
