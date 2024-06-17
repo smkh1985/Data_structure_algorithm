@@ -45,6 +45,14 @@ Space Complexity: O(n)
 
 Stability: Stable
 
+- **Counting Sort** (`CountingSort.py`) : Counting Sort is a non-comparison-based sorting algorithm that counts the occurrences of each element in the list. It then uses this count to place the elements in the correct position in the sorted list.
+
+    Time Complexity: O(n + k), where k is the range of the input
+
+    Space Complexity: O(n + k)
+
+    Stability: Stable
+
 ### Searching Algorithms
 
 - **Binary Search** (`binary_search.py`): A fast search algorithm for finding an element in a sorted array (non-recursive).
