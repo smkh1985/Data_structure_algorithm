@@ -37,7 +37,13 @@ This repository is a comprehensive collection of data structures and algorithms 
   Stability: Not stable
 
 - **Quicksort** (`quicksort.py`): An efficient sorting algorithm using the divide-and-conquer approach.
-- **Mergesort** (`mergesort.py`): Another divide-and-conquer sorting algorithm that divides the array into halves and merges them after sorting.
+- **Mergesort** (`mergesort.py`): Merge Sort is a divide-and-conquer algorithm that divides the list into two halves, recursively sorts each half, and then merges the sorted halves to produce the sorted list.
+
+Time Complexity: O(n log n)
+
+Space Complexity: O(n)
+
+Stability: Stable
 
 ### Searching Algorithms
 
