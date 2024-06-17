@@ -30,28 +30,28 @@ This repository is a comprehensive collection of data structures and algorithms 
 - **Selection Sort**(`selection_sort.py`): 
   Selection Sort divides the list into a sorted and an unsorted region. It repeatedly selects the smallest (or largest) element from the unsorted region and moves it to the end of the sorted region.
 
-  Time Complexity: O(n^2)
+  - Time Complexity: O(n^2)
 
-  Space Complexity: O(1)
+  - Space Complexity: O(1)
   
-  Stability: Not stable
+  - Stability: Not stable
 
 - **Quicksort** (`quicksort.py`): An efficient sorting algorithm using the divide-and-conquer approach.
 - **Mergesort** (`mergesort.py`): Merge Sort is a divide-and-conquer algorithm that divides the list into two halves, recursively sorts each half, and then merges the sorted halves to produce the sorted list.
 
-Time Complexity: O(n log n)
+  - Time Complexity: O(n log n)
 
-Space Complexity: O(n)
+  - Space Complexity: O(n)
 
-Stability: Stable
+  - Stability: Stable
 
 - **Counting Sort** (`CountingSort.py`) : Counting Sort is a non-comparison-based sorting algorithm that counts the occurrences of each element in the list. It then uses this count to place the elements in the correct position in the sorted list.
 
-    Time Complexity: O(n + k), where k is the range of the input
+  - Time Complexity: O(n + k), where k is the range of the input
 
-    Space Complexity: O(n + k)
+  - Space Complexity: O(n + k)
 
-    Stability: Stable
+  - Stability: Stable
 
 ### Searching Algorithms
 
