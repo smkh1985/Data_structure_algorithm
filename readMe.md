@@ -27,6 +27,14 @@ This repository is a comprehensive collection of data structures and algorithms 
 ## Implemented Algorithms
 
 ### Sorting Algorithms
+- **Selection Sort**(`selection_sort.py`): 
+  Selection Sort divides the list into a sorted and an unsorted region. It repeatedly selects the smallest (or largest) element from the unsorted region and moves it to the end of the sorted region.
+
+  Time Complexity: O(n^2)
+
+  Space Complexity: O(1)
+  
+  Stability: Not stable
 
 - **Quicksort** (`quicksort.py`): An efficient sorting algorithm using the divide-and-conquer approach.
 - **Mergesort** (`mergesort.py`): Another divide-and-conquer sorting algorithm that divides the array into halves and merges them after sorting.
